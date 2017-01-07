@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that
+ was introduced?
+ 
+   Since the output is in a format where only the changed lines are displayed, everything else is cleared
+   and debugging becomes easier by directly comparing each changed line.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in
+the long term?
+
+   Since programmers learn from their mistakes, having access to the past versions can prevent 
+   programmer from having to do it all over again, he can just use the old version in case he had made a 
+   mistake. This saves a lot of time and makes us more efficient.
+   You can save time for retrieving older version of your code when you notice you have a bug in the newer version.	
+
+   
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in 
+Git, vs having versions automatically saved, like Google
+docs does?
+ 
+   Pros : Avoid Cluttering of data, Making Exceptions, Logging change 	  
+   Cons : Forgetting to Save leading to loss of useful code, Human Error (Indecision) 
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while
+ others, like Google Docs, treat each file separately?
+    
+   This is because git is more coding-oriented and it knows that multiple files may make up one big code 
+   and change in one file affects the other. For example a single webpage may contain HTML,CSS as well 
+   JS files and change in one may affect the others.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+  The command git log is used to view the date and time a commit is made, the commit id and the 
+  message.
+  The command git diff is used to compare two versions of the file.
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+   
+  You can try changing any critical features, since you can always revert back to the point when those 
+  were working correctly. If you find something is not working, you can git log, and try the previous 
+  versions untill you find the one which works, and make diff of the last one that worked correctly and 
+  the commit following it. That result would show where and how the bug was introduced.
+    
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+  I would want to use git for making projects, working on ideas without worrying about the problems version
+  control solves. I can use it to collaborate with my friends, take part in competitions and can finally say, 
+  "I Know Git, Man"
+  
