@@ -24,8 +24,8 @@ organized? How would branches help?
 	
 	When you want to try adding an experimental feature while keeping your software working without breaking.
 	To do so, keep your master branch clean of any untested changes, instead make an experimental branch for any new 
-	feature that needs experimenting. After the new functionality gets stable enough to go into the master branch, you
-	could merge the experimental branch into the master.
+	feature that needs experimenting. After the new functionality gets stable enough to go into the master branch, 
+	you could merge the experimental branch into the master.
 
 	
 How do the diagrams help you visualize the branch structure?
@@ -38,6 +38,10 @@ How do the diagrams help you visualize the branch structure?
 	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	All the commits in the second branch is merged into the first branch, and the resluting merge commit becomes the 
+	new head of your current branch. The diagram shown by git log --graph cleary shows the merged commit has two 
+	parents, which correspond to the prior heads of each merged branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
