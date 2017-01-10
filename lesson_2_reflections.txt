@@ -1,7 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 	
 	When we initialize a repository a hidden file (.git) is created.
-	We need to do ir so that git can keep track of our files and implement version control on that directory.
+	We need to do it so that git can keep track of our files and implement version control on that directory.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
